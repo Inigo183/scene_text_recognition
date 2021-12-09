@@ -3,7 +3,7 @@ scene text recogition using different
 
 # Creating conda enviroment
 conda create -f requirements.yml
-# It will create a conda enviorment named as tf
+It will create a conda enviorment named as tf
 conda activate tf
 
 # To use EAST, we have to unzip the 2 files, to do so enter EAST folder and execute
