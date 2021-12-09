@@ -25,9 +25,25 @@ dependencies:
   - zlib=1.2.11=h7b6447c_3
   - pip:
     - argparse==1.4.0
+    - easyocr==1.4.1
+    - imageio==2.9.0
     - imutils==0.5.4
+    - networkx==2.6.3
     - numpy==1.21.4
     - opencv-python==4.5.4.60
-    - pillow==8.4.0
+    - opencv-python-headless==4.5.4.60
+    - packaging==21.3
+    - pillow==8.2.0
+    - pyparsing==3.0.6
     - pytesseract==0.3.8
+    - python-bidi==0.4.2
+    - pywavelets==1.2.0
+    - pyyaml==6.0
+    - scikit-image==0.19.0
+    - scipy==1.7.3
+    - six==1.16.0
+    - tifffile==2021.11.2
+    - torch==1.10.0
+    - torchvision==0.11.1
+    - typing-extensions==4.0.1
 prefix: /home/inigo/miniconda3/envs/scene
