@@ -3,7 +3,7 @@ scene text recogition using different
 
 # Creating conda enviroment
 ~~~
-conda create -f requirements.yml
+conda env create -f requirements.yml
 ~~~
 It will create a conda enviorment named as scene  
 ~~~
