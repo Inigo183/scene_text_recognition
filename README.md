@@ -19,16 +19,16 @@ unzip compacted_east.zip
 # To run EAST 
 ## In EAST folder  
 ~~~
-python text_detection.py -i images/(name.png) -east frozen_east_text_detection.pb 
+python text_detection.py -i images/name.png -east frozen_east_text_detection.pb 
 ~~~
 # To run tesseract
 ## In tesseract folder  
 ~~~
-python localize_text_recongition.py -i images/(name.png)
+python localize_text_recongition.py -i images/name.png
 ~~~
 
 # To run easyOCR
 ## in easyOCR folder
 ~~~
-python easyOCR.py --image images/(name.png) --langs en
+python easyOCR.py --image images/name.png --langs en
 ~~~
