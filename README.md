@@ -2,6 +2,7 @@
 scene text detection and recognition using mutilpe methods  
 
 To use all of them we used a conda environment, so we previuslly have miniconda installed.  
+In all commands is used png as image extension, if the photo you want to predict is another extension, just change it  
 
 # Creating conda environment
 ~~~
@@ -41,6 +42,17 @@ python easyOCR.py --image images/name_image.png --langs en
 
 ~~~
 python3 mser.py --image images/name_image.png 
+~~~
+
+# Running CRNN
+## in CRNN folder
+Make one prediction  
+~~~
+python src/predict.py demo/name_image.png
+~~~
+Make two or more predictions at same tiem  
+~~~
+python src/predict.py demo/*.png
 ~~~
 
 # Preparing to use ResNet model in character recognition
